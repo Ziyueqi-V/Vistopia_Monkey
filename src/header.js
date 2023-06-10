@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Vistopia_Monkey - 一款优化Vistopia体验的油猴脚本
+// @name         Vistopia_Monkey - 理想猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.2
+// @version      0.0.3
 // @description  一款优化Vistopia体验的油猴脚本
 // @author       Sherlock-V
 // @match        https://www.vistopia.com.cn
