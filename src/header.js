@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Junjin Monkey - 掘金猴
+// @name         Vistopia_Monkey - 一款优化Vistopia体验的油猴脚本
 // @namespace    http://tampermonkey.net/
-// @version      0.0.3
-// @description  better Juejin experience, remove ads and other useless things, make it clean and simple, just like a monkey!
+// @version      0.0.2
+// @description  一款优化Vistopia体验的油猴脚本
 // @author       Sherlock-V
 // @match        https://www.vistopia.com.cn
 // @match        https://www.vistopia.com.cn/*
