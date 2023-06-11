@@ -9,6 +9,8 @@
 // @grant        GM_addStyle
 // @run-at       document-body
 // @license      MIT
+// @homepageURL  https://github.com/Ziyueqi-V/Vistopia_Monkey
+// @supportURL   https://github.com/Ziyueqi-V/Vistopia_Monkey
 // ==/UserScript==
 (function () {
   'use strict';
