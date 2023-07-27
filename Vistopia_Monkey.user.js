@@ -13,7 +13,7 @@
 // @supportURL      https://github.com/Ziyueqi-V/Vistopia_Monkey
 // @updateURL       https://github.com/Ziyueqi-V/Vistopia_Monkey/blob/main/Vistopia_Monkey.user.js
 // @license         MIT
-// @version      0.0.8
+// @version      0.0.9
 // ==/UserScript==
 (function () {
   'use strict';
@@ -26,7 +26,7 @@
 .page-detail .detail-content .tabs_wrap,
 .page-detail .detail-content .tabs_wrap .el-tabs .el-tabs__header,
 .page-detail {
-  background: #000000 !important;
+  background: #1f1f1f !important;
 }
 
 .comment-list .item-wrap .articleTitle,
@@ -57,13 +57,7 @@
   GM_addStyle(cssText);
 
   const style = document.createElement('style')
-  const hides = [
-    '#juejin > div.view-container div.sidebar.article-sidebar > ul.sidebar-bd-entry',
-    '#juejin > div.view-container div.sidebar.article-sidebar > div.sidebar-block.wechat-sidebar-block.pure',
-    '#juejin > div.view-container div.main-area.article-area > div.article-end > div.extension-banner',
-    '#juejin > div.view-container li.nav-item.vip-entry',
-    '#juejin > div.view-container ul > li.nav-item.link-item.special-activity-item',
-  ].filter(Boolean)
+  const hides = [].filter(Boolean)
 
   style.innerHTML = [
     `${hides.join(',')}{ display: none !important; }`,

@@ -13,5 +13,5 @@
 // @supportURL      https://github.com/Ziyueqi-V/Vistopia_Monkey
 // @updateURL       https://github.com/Ziyueqi-V/Vistopia_Monkey/blob/main/Vistopia_Monkey.user.js
 // @license         MIT
-// @version      0.0.8
+// @version      0.0.9
 // ==/UserScript==
