@@ -1,11 +1,12 @@
 @import "darkMode";
 
-$vistopia-gold:#f0dd71 !important;
+$vistopia-gold: #f0dd71 !important;
 
-.page-home, .page-home .home-content,
+.page-home,
+.page-home .home-content,
 .page-article,
 .page-detail .detail-content .tabs_wrap,
-.page-detail .detail-content .tabs_wrap  .el-tabs .el-tabs__header,
+.page-detail .detail-content .tabs_wrap .el-tabs .el-tabs__header,
 .page-detail {
   background: $page-container;
 }
@@ -21,20 +22,20 @@ $vistopia-gold:#f0dd71 !important;
 
 
 
-.comment_children .child .name{
+.comment_children .child .name {
   color: $title;
 }
 
 
 
-.page-article .article-content .article{
-  color:$primaryText;
-}
-.comment_children .child .replied
-{
-color:$secondaryText;
+.page-article .article-content .article {
+  color: $primaryText;
 }
 
-.page-article .article-content .article[data-v-0c3a9210]  a{
-  color:$vistopia-gold;
+.comment_children .child .replied {
+  color: $secondaryText;
+}
+
+.page-article .article-content .article.article a {
+  color: $vistopia-gold;
 }

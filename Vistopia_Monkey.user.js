@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name            Vistopia_Monkey
 // @name:cn         理想猴
-// @version      0.0.7
 // @namespace       http://tampermonkey.net/
 // @description     This userscript does wonderful things
 // @description:cn  看理想网页界面自定义
@@ -14,13 +13,15 @@
 // @supportURL      https://github.com/Ziyueqi-V/Vistopia_Monkey
 // @updateURL       https://github.com/Ziyueqi-V/Vistopia_Monkey/blob/main/Vistopia_Monkey.user.js
 // @license         MIT
+// @version      0.0.8
 // ==/UserScript==
 (function () {
   'use strict';
 
   // Your code here...
   const cssText = `
-  .page-home, .page-home .home-content,
+  .page-home,
+.page-home .home-content,
 .page-article,
 .page-detail .detail-content .tabs_wrap,
 .page-detail .detail-content .tabs_wrap .el-tabs .el-tabs__header,
@@ -49,7 +50,7 @@
   color: rgba(255, 255, 255, 0.45) !important;
 }
 
-.page-article .article-content .article[data-v-0c3a9210] a {
+.page-article .article-content .article.article a {
   color: #f0dd71 !important;
 }
   `;

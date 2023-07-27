@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name            Vistopia_Monkey
 // @name:cn         理想猴
-// @version      0.0.7
 // @namespace       http://tampermonkey.net/
 // @description     This userscript does wonderful things
 // @description:cn  看理想网页界面自定义
@@ -14,4 +13,5 @@
 // @supportURL      https://github.com/Ziyueqi-V/Vistopia_Monkey
 // @updateURL       https://github.com/Ziyueqi-V/Vistopia_Monkey/blob/main/Vistopia_Monkey.user.js
 // @license         MIT
+// @version      0.0.8
 // ==/UserScript==
